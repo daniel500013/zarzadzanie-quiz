@@ -2260,14 +2260,18 @@ function showResults() {
             <td style="color: ${isAnswerCorrect(question, userAnswers[index]) ? 'green' : 'red'}">
                 ${userAnswers[index]}
             </td>
-            <td>${getCorrectAnswer(question)}</td>
+            <td>
+                <ol>
+                    ${getCorrectAnswer(question)}
+                </ol>
+            </td>
         </tr>
     `).join('');
 }
 
 function isAnswerCorrect(question, userAnswer) {
-    const correctAnswer = getCorrectAnswer(question);
-    return userAnswer === correctAnswer;
+  const correctAnswers = getCorrectAnswer(question).replace(/<li>|<\/li>/g, '').split('|');
+  return correctAnswers.includes(userAnswer);
 }
 
 function getUserAnswer(question, index) {
@@ -2275,7 +2279,10 @@ function getUserAnswer(question, index) {
 }
 
 function getCorrectAnswer(question) {
-    return question.answers.find(answer => answer.correct).text;
+  return question.answers
+  .filter(answer => answer.correct)
+  .map(answer => `<li>${answer.text}</li>`)
+  .join('|');
 }
 
 function restartQuiz() {
