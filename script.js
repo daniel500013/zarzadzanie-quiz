@@ -1,214 +1,220 @@
 const questions = [
     {
-        "question": "Autokratyczny styl przewodzenia cechuje to, że kierownik:",
+        "question": "Jakie są zasady zarządzania strategicznego wg J.Jeżaka?",
         "answers": [
-            {
-                "text": "Posiada monopol na informacje z zewnątrz.",
-                "correct": true
-            },
-            {
-                "text": "Pozostawia pracownikom samodzielność w realizacji ich zadań.",
-                "correct": false
-            },
-            {
-                "text": "Używa głównie środków perswazji.",
-                "correct": false
-            },
-            {
-                "text": "Przekazuje decyzje podwładnym do realizacji.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Blake i Mouton w opracowywanej siatce kierowniczej uwzględnili:",
+          {
+            "text": "Otwartość, kompleksowość, orientacja na przyszłość, kreatywność, orientacja na wyniki, współdziałanie.",
+            "correct": true
+          },
+          {
+            "text": "Orientacja na teraźniejszość, minimalizacja kosztów, autorytarne przywództwo.",
+            "correct": false
+          },
+          {
+            "text": "Utrzymywanie status quo, ograniczanie ryzyka, unikanie innowacji.",
+            "correct": false
+          },
+          {
+            "text": "Centralizacja decyzji, ścisła kontrola, brak współpracy.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Jakie są cechy stylu kierowania wg R. Likerta?",
         "answers": [
-            {
-                "text": "Troskę o ludzi i produkcję.",
-                "correct": true
-            },
-            {
-                "text": "Centralizację decyzji.",
-                "correct": false
-            },
-            {
-                "text": "Hierarchię służbową.",
-                "correct": false
-            },
-            {
-                "text": "Delegowanie zadań.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Cechą dobrego planu jest:",
+          {
+            "text": "Autokratyczny, autokratyczny życzliwy, konsultacyjny, partycypacyjny.",
+            "correct": true
+          },
+          {
+            "text": "Demokratyczny, autokratyczny, laissez-faire, charyzmatyczny.",
+            "correct": false
+          },
+          {
+            "text": "Dyrektywny, partycypacyjny, transformacyjny, transakcyjny.",
+            "correct": false
+          },
+          {
+            "text": "Technokratyczny, biurokratyczny, adaptacyjny, konserwatywny.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Jakie są rodzaje zmian organizacyjnych?",
         "answers": [
-            {
-                "text": "Celowość i kompletność.",
-                "correct": true
-            },
-            {
-                "text": "Złożoność i zyskowność.",
-                "correct": false
-            },
-            {
-                "text": "Elastyczność i uproszczenie.",
-                "correct": false
-            },
-            {
-                "text": "Kompleksowość i dynamika.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Cechą dobrego planu nie jest:",
+          {
+            "text": "Dobrowolne, wymuszone, adaptacyjne, innowacyjne.",
+            "correct": true
+          },
+          {
+            "text": "Strukturalne, technologiczne, personalne, proceduralne.",
+            "correct": false
+          },
+          {
+            "text": "Operacyjne, taktyczne, strategiczne, finansowe.",
+            "correct": false
+          },
+          {
+            "text": "Programowe, nieprogramowe, planowane, nieplanowane.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Które kroki są etapami procesu wdrażania zmian?",
         "answers": [
-            {
-                "text": "Złożoność i zyskowność.",
-                "correct": true
-            },
-            {
-                "text": "Złożoność i elastyczność.",
-                "correct": true
-            },
-            {
-                "text": "Celowość i kompletność.",
-                "correct": false
-            },
-            {
-                "text": "Prostota i skuteczność.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Cechą skutecznych systemów kontroli nie jest:",
+          {
+            "text": "Analiza stanu obecnego, opracowanie wizji pożądanego stanu końcowego, realizacja zmian, analiza efektów.",
+            "correct": true
+          },
+          {
+            "text": "Planowanie, wdrażanie, monitorowanie, ocena.",
+            "correct": false
+          },
+          {
+            "text": "Tworzenie misji, definiowanie celów, monitorowanie, ocena.",
+            "correct": false
+          },
+          {
+            "text": "Analiza SWOT, analiza PEST, analiza finansowa, wdrożenie.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Która zasada NIE dotyczy technik posługiwania się modyfikacją zachowań?",
         "answers": [
-            {
-                "text": "Wysoki stopień sformalizowania.",
-                "correct": true
-            },
-            {
-                "text": "Obiektywizm i zrozumiałość informacji.",
-                "correct": false
-            },
-            {
-                "text": "Monitorowanie osiągnięć.",
-                "correct": false
-            },
-            {
-                "text": "Systematyczna analiza wyników.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Celem kontroli strategicznej jest:",
+          {
+            "text": "Nagradzać wszystkich jednakowo.",
+            "correct": true
+          },
+          {
+            "text": "Mówić podwładnym, co robią źle.",
+            "correct": false
+          },
+          {
+            "text": "Nie karać w obecności innych.",
+            "correct": false
+          },
+          {
+            "text": "Pamiętać, że brak reakcji może również modyfikować zachowania.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Jakie są rodzaje benchmarkingu ze względu na metodę?",
         "answers": [
-            {
-                "text": "Zapewnienie skutecznego dostosowania organizacji do otoczenia.",
-                "correct": true
-            },
-            {
-                "text": "Weryfikacja osiągniętych wyników finansowych.",
-                "correct": false
-            },
-            {
-                "text": "Ocena wydajności pracowników.",
-                "correct": false
-            },
-            {
-                "text": "Monitorowanie procesów produkcyjnych.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Demokratyczny styl przewodzenia cechuje to, że kierownik:",
+          {
+            "text": "Wewnętrzny, konkurencyjny, funkcjonalny, ogólny.",
+            "correct": true
+          },
+          {
+            "text": "Operacyjny, strategiczny, taktyczny, finansowy.",
+            "correct": false
+          },
+          {
+            "text": "Wewnętrzny, zewnętrzny, lokalny, globalny.",
+            "correct": false
+          },
+          {
+            "text": "Konkurencyjny, finansowy, proceduralny, jakościowy.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Jakie są rodzaje konfliktów w organizacji?",
         "answers": [
-            {
-                "text": "Pozostawia pracownikom samodzielność w realizacji ich zadań.",
-                "correct": true
-            },
-            {
-                "text": "Jako środki wpływu na grupę stosuje gównie przekonywanie.",
-                "correct": true
-            },
-            {
-                "text": "Posiada monopol na informacje z zewnątrz.",
-                "correct": false
-            },
-            {
-                "text": "Wprowadza autorytarne zasady.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Do barier przy ustalaniu celów i planowaniu nie zalicza się:",
+          {
+            "text": "Wewnętrzny, między poszczególnymi osobami, między jednostką a grupą, między grupami w danej organizacji, między organizacjami.",
+            "correct": true
+          },
+          {
+            "text": "Personalny, grupowy, organizacyjny, międzynarodowy.",
+            "correct": false
+          },
+          {
+            "text": "Hierarchiczny, funkcjonalny, proceduralny, technologiczny.",
+            "correct": false
+          },
+          {
+            "text": "Indywidualny, zespołowy, organizacyjny, globalny.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Które cechy są wymagane dla skutecznego systemu kontroli?",
         "answers": [
-            {
-                "text": "Udziału podwładnych w procesie podejmowania decyzji.",
-                "correct": true
-            },
-            {
-                "text": "Braku zasobów.",
-                "correct": false
-            },
-            {
-                "text": "Zmiennej sytuacji rynkowej.",
-                "correct": false
-            },
-            {
-                "text": "Niedostatecznej komunikacji.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Do cech skutecznych systemów kontroli należy:",
+          {
+            "text": "Ścisłość wykorzystywanych informacji, aktualność danych, obiektywizm i zrozumiałość informacji, koncentracja na strategicznych punktach kontroli, realizm ekonomiczny i organizacyjny, koordynacja z tokiem pracy, elastyczność systemu kontroli, normatywność i wykonanie, akceptacja przez członków organizacji.",
+            "correct": true
+          },
+          {
+            "text": "Koncentracja na minimalnych wynikach, subiektywizm, brak elastyczności, brak akceptacji przez członków organizacji.",
+            "correct": false
+          },
+          {
+            "text": "Stosowanie tylko jednego rodzaju kontroli, brak koordynacji z tokiem pracy, brak aktualności danych.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Czym charakteryzuje się zarządzanie operacyjne?",
         "answers": [
-            {
-                "text": "Obiektywizm i zrozumiałość informacji.",
-                "correct": true
-            },
-            {
-                "text": "Wysoki stopień sformalizowania.",
-                "correct": false
-            },
-            {
-                "text": "Subiektywne podejście do danych.",
-                "correct": false
-            },
-            {
-                "text": "Skupienie na ilości danych.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Do cech skutecznych systemów kontroli nie należy:",
+          {
+            "text": "Skupia wszystkie działania na wytworzeniu produktu lub usługi.",
+            "correct": true
+          },
+          {
+            "text": "Jest długoterminowe i strategiczne.",
+            "correct": false
+          },
+          {
+            "text": "Obejmuje tylko planowanie i organizowanie.",
+            "correct": false
+          },
+          {
+            "text": "Skupia się na motywowaniu i kontrolowaniu.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
+      {
+        "question": "Co pozwala określić analiza luki strategicznej?",
         "answers": [
-            {
-                "text": "Wysoki stopień sformalizowani.",
-                "correct": true
-            },
-            {
-                "text": "Koncentracja na udziale przedsiębiorstwa w rynku.",
-                "correct": true
-            },
-            {
-                "text": "Koncentracja na strategicznych celach przedsiębiorstwa.",
-                "correct": true
-            },
-            {
-                "text": "Obiektywizm i zrozumiałość informacji.",
-                "correct": false
-            }
-        ]
-    },
+          {
+            "text": "Różnicę między zasobami wewnętrznymi firmy a wymaganiami rynku.",
+            "correct": false
+          },
+          {
+            "text": "Lukę pomiędzy trendem procesów w organizacji a trendem procesów w otoczeniu.",
+            "correct": true
+          },
+          {
+            "text": "Lukę pomiędzy długoterminowymi celami a krótkoterminowymi wynikami.",
+            "correct": false
+          },
+          {
+            "text": "Różnicę między efektywnością operacyjną a strategiczną.",
+            "correct": false
+          }
+        ],
+        "important": false
+      },
     {
         "question": "Do czynników określających kształt i wielkość struktur organizacyjnych zalicza się:",
         "answers": [
@@ -1511,426 +1517,656 @@ const questions = [
             }
         ]
     },
+  {
+    "question": "Czym charakteryzuje się styl kierowania 1.1 wg siatki kierowniczej Blake'a i Moutona?",
+    "answers": [
+      {
+        "text": "Wysokim nastawieniem na relacje i wykonanie zadań.",
+        "correct": false
+      },
+      {
+        "text": "Niskim nastawieniem zarówno na ludzi, jak i na zadania.",
+        "correct": true
+      },
+      {
+        "text": "Wysokim nastawieniem na zadania, niskim na ludzi.",
+        "correct": false
+      },
+      {
+        "text": "Wysokim nastawieniem na ludzi, niskim na zadania.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jaki styl kierowania wg siatki kierowniczej Blake'a i Moutona jest określany jako styl kompleksowy?",
+    "answers": [
+      {
+        "text": "Styl 1.1",
+        "correct": false
+      },
+      {
+        "text": "Styl 9.1",
+        "correct": false
+      },
+      {
+        "text": "Styl 5.5",
+        "correct": false
+      },
+      {
+        "text": "Styl 9.9",
+        "correct": true
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Co obejmuje model organizacji wg Levitta?",
+    "answers": [
+      {
+        "text": "Ludzie, struktura, technologia, otoczenie.",
+        "correct": false
+      },
+      {
+        "text": "Ludzie, cele i zadania, struktura, technologia.",
+        "correct": true
+      },
+      {
+        "text": "Cele i zadania, struktura, kultura, technologia.",
+        "correct": false
+      },
+      {
+        "text": "Ludzie, struktura, kultura, otoczenie.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jakie są typy struktur organizacyjnych omówione w prezentacji?",
+    "answers": [
+      {
+        "text": "Funkcjonalna, dywizjonalna, macierzowa.",
+        "correct": true
+      },
+      {
+        "text": "Hierarchiczna, sieciowa, hybrydowa.",
+        "correct": false
+      },
+      {
+        "text": "Funkcjonalna, sieciowa, matrycowa.",
+        "correct": false
+      },
+      {
+        "text": "Dywizjonalna, projektowa, procesowa.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jakie są rodzaje konfliktów w organizacji?",
+    "answers": [
+      {
+        "text": "Wewnętrzny, między jednostkami, między grupami, między organizacjami.",
+        "correct": true
+      },
+      {
+        "text": "Wewnętrzny, zewnętrzny, personalny, grupowy.",
+        "correct": false
+      },
+      {
+        "text": "Indywidualny, zespołowy, organizacyjny, międzynarodowy.",
+        "correct": false
+      },
+      {
+        "text": "Hierarchiczny, funkcjonalny, proceduralny, technologiczny.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Która metoda rozwiązywania konfliktów polega na stosowaniu przymusu przez stronę silniejszą?",
+    "answers": [
+      {
+        "text": "Kompromis.",
+        "correct": false
+      },
+      {
+        "text": "Dominacja i tłumienie.",
+        "correct": true
+      },
+      {
+        "text": "Integrujące rozwiązanie problemów.",
+        "correct": false
+      },
+      {
+        "text": "Negocjacje.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jakie są zasady dotyczące technik posługiwania się modyfikacją zachowań?",
+    "answers": [
+      {
+        "text": "Nagradzać wszystkich jednakowo, ignorować błędy.",
+        "correct": false
+      },
+      {
+        "text": "Nie nagradzać wszystkich jednakowo, mówić podwładnym, co robią źle.",
+        "correct": true
+      },
+      {
+        "text": "Karać w obecności innych, nagradzać tylko wybrane osoby.",
+        "correct": false
+      },
+      {
+        "text": "Zawsze nagradzać publicznie, ignorować opóźnienia.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Co obejmuje proces kontroli?",
+    "answers": [
+      {
+        "text": "Ustalenie norm i metod pomiaru, mierzenie wyników, porównanie wyników z normami, korekta odchyleń.",
+        "correct": true
+      },
+      {
+        "text": "Planowanie, organizowanie, kontrolowanie, motywowanie.",
+        "correct": false
+      },
+      {
+        "text": "Tworzenie strategii, implementacja, monitorowanie, ocena.",
+        "correct": false
+      },
+      {
+        "text": "Analiza, planowanie, wdrażanie, monitorowanie.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jakie czynniki otoczenia organizacji wymienia Bielski?",
+    "answers": [
+      {
+        "text": "Technologiczne, edukacyjne, socjologiczne, prawne, demograficzne, kulturowe, fizyczne.",
+        "correct": true
+      },
+      {
+        "text": "Ekonomiczne, polityczne, technologiczne, społeczne, kulturowe.",
+        "correct": false
+      },
+      {
+        "text": "Fizyczne, prawne, ekonomiczne, demograficzne, edukacyjne.",
+        "correct": false
+      },
+      {
+        "text": "Kulturowe, polityczne, technologiczne, prawne, socjologiczne.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Co obejmuje struktura macierzowa?",
+    "answers": [
+      {
+        "text": "Struktura obejmuje hierarchię pionową i poziomą, umożliwiając pracownikom raportowanie do więcej niż jednego przełożonego.",
+        "correct": true
+      },
+      {
+        "text": "Struktura jest jednowymiarowa i skupia się na hierarchii pionowej.",
+        "correct": false
+      },
+      {
+        "text": "Struktura jest płaska, bez wyraźnych linii raportowania.",
+        "correct": false
+      },
+      {
+        "text": "Struktura obejmuje jedynie hierarchię poziomą, z małym naciskiem na raportowanie.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Czym jest wiedza według definicji w prezentacji?",
+    "answers": [
+      {
+        "text": "Wiedza to dane bez kontekstu.",
+        "correct": false
+      },
+      {
+        "text": "Wiedza to informacje o określonej strukturze pozyskane w określonym celu.",
+        "correct": true
+      },
+      {
+        "text": "Wiedza to tylko informacje dostępne w internecie.",
+        "correct": false
+      },
+      {
+        "text": "Wiedza to zinterpretowane dane bez kontekstu.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jakie są cechy wiedzy według D. Tobina?",
+    "answers": [
+      {
+        "text": "Nietrwałość, transferowość, samo zasilanie, osadzenie, podmiotowość.",
+        "correct": true
+      },
+      {
+        "text": "Dominacja, niewyczerpywalność, symultaniczność, nieliniowość.",
+        "correct": false
+      },
+      {
+        "text": "Racjonalność, irracjonalność, spekulatywność.",
+        "correct": false
+      },
+      {
+        "text": "Tajność, jawność, indywidualność, kolektywność.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jakie są rodzaje wiedzy według B. Lundvall i B. Johnson?",
+    "answers": [
+      {
+        "text": "Know-what, know-why, know-how, know-who.",
+        "correct": true
+      },
+      {
+        "text": "Know-when, know-where, know-which.",
+        "correct": false
+      },
+      {
+        "text": "Know-if, know-whether, know-cause.",
+        "correct": false
+      },
+      {
+        "text": "Know-what, know-when, know-how.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Co obejmuje proces tworzenia wiedzy?",
+    "answers": [
+      {
+        "text": "Poszukiwanie nowych informacji, selekcja informacji, tworzenie koncepcji, struktura możliwości.",
+        "correct": true
+      },
+      {
+        "text": "Poszukiwanie nowych informacji, kodyfikacja wiedzy, dzielenie się wiedzą.",
+        "correct": false
+      },
+      {
+        "text": "Transfer informacji, absorpcja informacji, myślenie, doświadczenie.",
+        "correct": false
+      },
+      {
+        "text": "Zabezpieczenie wiedzy, gromadzenie wiedzy, udostępnianie wiedzy.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Czym jest kodyfikacja wiedzy?",
+    "answers": [
+      {
+        "text": "Proces nadawania wiedzy organizacyjnej odpowiedniej formy ułatwiającej dostęp do niej.",
+        "correct": true
+      },
+      {
+        "text": "Proces selekcji i klasyfikacji informacji.",
+        "correct": false
+      },
+      {
+        "text": "Proces transferu wiedzy z jednego działu do drugiego.",
+        "correct": false
+      },
+      {
+        "text": "Proces tworzenia nowych danych.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jakie są bariery osobiste w zarządzaniu wiedzą według A. Kowalczyka i B. Nogalskiego?",
+    "answers": [
+      {
+        "text": "Brak pewności siebie, brak czasu, brak odpowiednich narzędzi.",
+        "correct": false
+      },
+      {
+        "text": "Brak pewności siebie, brak wiedzy o pracy zespołów, brak motywacji do dzielenia się wiedzą.",
+        "correct": true
+      },
+      {
+        "text": "Brak wsparcia menedżerów, silna presja czasu, brak zaufania.",
+        "correct": false
+      },
+      {
+        "text": "Silna rywalizacja, brak nagradzania, brak komunikacji.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jakie są korzyści z zarządzania wiedzą na płaszczyźnie wewnątrzorganizacyjnej?",
+    "answers": [
+      {
+        "text": "Poprawa efektywności zarządzania, rozwój pracowników, redukcja kosztów zarządzania.",
+        "correct": true
+      },
+      {
+        "text": "Zwiększenie konkurencyjności, rozwój przedsiębiorstwa, poprawa relacji z klientami.",
+        "correct": false
+      },
+      {
+        "text": "Wzrost elastyczności zarządzania, rozwój komunikacji wewnętrznej, poprawa atmosfery pracy.",
+        "correct": false
+      },
+      {
+        "text": "Wzrost kreatywności, zwiększenie efektywności działań, rozwój nowych produktów.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Co według Waggemana wpływa na rozwój wiedzy?",
+    "answers": [
+      {
+        "text": "Dane, informacja, umiejętności, doświadczenie, nastawienie.",
+        "correct": true
+      },
+      {
+        "text": "Dane, informacja, innowacje, technologie.",
+        "correct": false
+      },
+      {
+        "text": "Informacja, umiejętności, strategie, technologie.",
+        "correct": false
+      },
+      {
+        "text": "Informacja, doświadczenie, zasoby, technologie.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jakie są podstawowe filary gospodarki opartej na wiedzy (GOW)?",
+    "answers": [
+      {
+        "text": "Wysoki procent PKB na badania naukowe, dobrze rozwinięta infrastruktura, gospodarka oparta o wysokie technologie, polityka państwa sprzyjająca przedsiębiorczości, solidne podstawy makroekonomiczne.",
+        "correct": true
+      },
+      {
+        "text": "Wysoki procent PKB na edukację, rozwinięta infrastruktura, dominacja tradycyjnych przemysłów, centralizacja władzy, niski poziom innowacji.",
+        "correct": false
+      },
+      {
+        "text": "Niski procent PKB na badania naukowe, dobrze rozwinięta infrastruktura, gospodarka oparta o tradycyjne technologie, polityka państwa sprzyjająca centralizacji, słabe podstawy makroekonomiczne.",
+        "correct": false
+      },
+      {
+        "text": "Wysoki procent PKB na administrację, rozwinięta infrastruktura, dominacja tradycyjnych przemysłów, polityka państwa sprzyjająca centralizacji, niski poziom inflacji.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jaka jest rola wiedzy w procesie zmian cywilizacyjnych według A. Tofflera?",
+    "answers": [
+      {
+        "text": "Wiedza jest podstawowym czynnikiem produkcji w gospodarce postindustrialnej.",
+        "correct": true
+      },
+      {
+        "text": "Wiedza odgrywa drugorzędną rolę w rozwoju cywilizacyjnym.",
+        "correct": false
+      },
+      {
+        "text": "Wiedza jest mniej istotna niż kapitał i praca w gospodarce postindustrialnej.",
+        "correct": false
+      },
+      {
+        "text": "Wiedza jest jedynie dodatkiem do tradycyjnych zasobów jak ziemia i kapitał.",
+        "correct": false
+      }
+    ]
+  },
     {
-        "question": "W modelu typowych sytuacji Fiedler między innymi uwzględnił:",
-        "answers": [
-            {
-                "text": "Zakres władzy kierownika.",
-                "correct": true
-            },
-            {
-                "text": "Zakres wiedzy kierownika.",
-                "correct": false
-            },
-            {
-                "text": "Stopień zaawansowania technologicznego.",
-                "correct": false
-            },
-            {
-                "text": "Liczbę podwładnych.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "W modelu typowych sytuacji Fiedler nie uwzględnił:",
-        "answers": [
-            {
-                "text": "Zakresu wiedzy kierownika.",
-                "correct": true
-            },
-            {
-                "text": "Zakresu władzy kierownika.",
-                "correct": false
-            },
-            {
-                "text": "Stopnia zaawansowania technologicznego.",
-                "correct": false
-            },
-            {
-                "text": "Liczby podwładnych.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "W modelu Vrooma-Yettona-Jago style podejmowania decyzji różnią się:",
-        "answers": [
-            {
-                "text": "Udziałem podwładnych w procesie podejmowania decyzji.",
-                "correct": true
-            },
-            {
-                "text": "Poziomem ryzyka.",
-                "correct": false
-            },
-            {
-                "text": "Zakresem odpowiedzialności.",
-                "correct": false
-            },
-            {
-                "text": "Liczbą uczestników procesu decyzyjnego.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "W procesie racjonalnego podejmowania decyzji w drugim etapie należy:",
-        "answers": [
-            {
-                "text": "Opracować warianty decyzji ale ich nie oceniać.",
-                "correct": true
-            },
-            {
-                "text": "Ocenić warianty decyzji i wybrać najlepszy.",
-                "correct": false
-            },
-            {
-                "text": "Zdefiniować problem.",
-                "correct": false
-            },
-            {
-                "text": "Wdrożyć decyzję.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "W procesie racjonalnego podejmowania decyzji w trzecim etapie należy:",
-        "answers": [
-            {
-                "text": "Ocenić warianty decyzji i wybrać najlepszy.",
-                "correct": true
-            },
-            {
-                "text": "Opracować warianty decyzji ale ich nie oceniać.",
-                "correct": false
-            },
-            {
-                "text": "Zdefiniować problem.",
-                "correct": false
-            },
-            {
-                "text": "Wdrożyć decyzję.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Według Herseya i Blancharda zachowanie przywódcy w nowej firmie kończy się na:",
-        "answers": [
-            {
-                "text": "Małym nacisku na wzajemnych stosunkach i na zadaniach.",
-                "correct": true
-            },
-            {
-                "text": "Dużym nacisku na wzajemne stosunki a małym na zadania.",
-                "correct": false
-            },
-            {
-                "text": "Małym nacisku na wzajemne stosunki a dużym na zadania.",
-                "correct": false
-            },
-            {
-                "text": "Dużym nacisku na zadania i na wzajemne stosunki.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Według Herseya i Blancharda zachowanie przywódcy w nowej firmie zaczyna się od:",
-        "answers": [
-            {
-                "text": "Małego nacisku na wzajemne stosunki a dużego na zadania.",
-                "correct": true
-            },
-            {
-                "text": "Dużego nacisku na wzajemne stosunki a małego na zadania.",
-                "correct": false
-            },
-            {
-                "text": "Małego nacisku na wzajemne stosunki i na zadania.",
-                "correct": false
-            },
-            {
-                "text": "Dużego nacisku na zadania i na wzajemne stosunki.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Według założeń teorii X:",
-        "answers": [
-            {
-                "text": "Ludzie nie lubią pracować i starają się unikać pracy.",
-                "correct": true
-            },
-            {
-                "text": "Ludzie są wewnętrznie motywowani do osiągania celów.",
-                "correct": false
-            },
-            {
-                "text": "Ludzie są zdolni do nowatorskiego podejścia do rozwiązywania problemów organizacji.",
-                "correct": false
-            },
-            {
-                "text": "Ludzie chętnie podejmują się odpowiedzialnych zadań.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Według założeń teorii Y:",
-        "answers": [
-            {
-                "text": "Ludzie są wewnętrznie motywowani do osiągania celów.",
-                "correct": true
-            },
-            {
-                "text": "Ludzie są zdolni do nowatorskiego podejścia do rozwiązywania problemów organizacji.",
-                "correct": true
-            },
-            {
-                "text": "Ludzie nie lubią pracować i starają się unikać pracy.",
-                "correct": false
-            },
-            {
-                "text": "Ludzie chętnie podejmują się odpowiedzialnych zadań.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Wskaż prawidłowe przyporządkowanie przedstawicieli do nurtów zarządzania:",
-        "answers": [
-            {
-                "text": "Zarządzanie administracyjne - Henri Fayol.",
-                "correct": true
-            },
-            {
-                "text": "Zarządzanie naukowe - Max Weber.",
-                "correct": false
-            },
-            {
-                "text": "Zarządzanie klasyczne - Frederick Taylor.",
-                "correct": false
-            },
-            {
-                "text": "Zarządzanie behawioralne - Abraham Maslow.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Wskaż zaletę grupowego podejmowania decyzji:",
-        "answers": [
-            {
-                "text": "Może dojść do poprawy w porozumiewaniu się.",
-                "correct": true
-            },
-            {
-                "text": "Szybkość podejmowania decyzji.",
-                "correct": false
-            },
-            {
-                "text": "Jednolitość opinii.",
-                "correct": false
-            },
-            {
-                "text": "Brak kreatywnych rozwiązań.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Wyzwaniem współczesnego zarządzania jest:",
-        "answers": [
-            {
-                "text": "Etyka i społeczna odpowiedzialność.",
-                "correct": true
-            },
-            {
-                "text": "Szybkość podejmowania decyzji.",
-                "correct": false
-            },
-            {
-                "text": "Redukcja kosztów.",
-                "correct": false
-            },
-            {
-                "text": "Wzrost sprzedaży.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Założenia podstawowe w kulturze organizacyjnej:",
-        "answers": [
-            {
-                "text": "Są najtrudniejsze do zmiany.",
-                "correct": true
-            },
-            {
-                "text": "Są łatwe do zmiany.",
-                "correct": false
-            },
-            {
-                "text": "Są świadome.",
-                "correct": false
-            },
-            {
-                "text": "Nie mają wpływu na zachowania pracowników.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Zarządzanie operacyjne:",
-        "answers": [
-            {
-                "text": "Zajmuje się wspomaganiem organizacji w efektywnym wytwarzaniu produktów i usług.",
-                "correct": true
-            },
-            {
-                "text": "Skupia się na strategii marketingowej.",
-                "correct": false
-            },
-            {
-                "text": "Koncentruje się na zarządzaniu zasobami ludzkimi.",
-                "correct": false
-            },
-            {
-                "text": "Zajmuje się wyłącznie planowaniem strategicznym.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Ze względu na rodzaj podjętej decyzji dzielimy je na:",
-        "answers": [
-            {
-                "text": "Operacyjne, strategiczne i taktyczne.",
-                "correct": true
-            },
-            {
-                "text": "Tymczasowe, stałe i zmienne.",
-                "correct": false
-            },
-            {
-                "text": "Strategiczne, planistyczne i taktyczne.",
-                "correct": false
-            },
-            {
-                "text": "Długoterminowe, krótkoterminowe i średnioterminowe.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Ze względu na rozmiar zmian, wyróżniamy zmiany:",
-        "answers": [
-            {
-                "text": "Zachowawcze i rozwojowe.",
-                "correct": true
-            },
-            {
-                "text": "Strategiczne i taktyczne.",
-                "correct": false
-            },
-            {
-                "text": "Planistyczne i operacyjne.",
-                "correct": false
-            },
-            {
-                "text": "Długoterminowe i krótkoterminowe.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Ze względu na strukturę działania, decyzje dzielimy na:",
-        "answers": [
-            {
-                "text": "Selekcyjne, alokacyjne i hierarchiczne.",
-                "correct": true
-            },
-            {
-                "text": "Strategiczne, taktyczne i operacyjne.",
-                "correct": false
-            },
-            {
-                "text": "Planistyczne, operacyjne i alokacyjne.",
-                "correct": false
-            },
-            {
-                "text": "Długoterminowe, krótkoterminowe i średnioterminowe.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Ze względu na warunki podejmowania decyzji, dzielimy je na:",
-        "answers": [
-            {
-                "text": "W sytuacji niepewności, pewności i ryzyka.",
-                "correct": true
-            },
-            {
-                "text": "Strategiczne, taktyczne i operacyjne.",
-                "correct": false
-            },
-            {
-                "text": "Długoterminowe, krótkoterminowe i średnioterminowe.",
-                "correct": false
-            },
-            {
-                "text": "Planistyczne, operacyjne i alokacyjne.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Ze względu na zakres, zmiany dzielimy na:",
-        "answers": [
-            {
-                "text": "Innowacyjne i adaptacyjne.",
-                "correct": true
-            },
-            {
-                "text": "Zachowawcze i rozwojowe.",
-                "correct": false
-            },
-            {
-                "text": "Strategiczne i taktyczne.",
-                "correct": false
-            },
-            {
-                "text": "Planistyczne i operacyjne.",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Ze względu na źródło, zmiany dzielimy na:",
-        "answers": [
-            {
-                "text": "Dobrowolne i wymuszone.",
-                "correct": true
-            },
-            {
-                "text": "Innowacyjne i adaptacyjne.",
-                "correct": false
-            },
-            {
-                "text": "Strategiczne i taktyczne.",
-                "correct": false
-            },
-            {
-                "text": "Planistyczne i operacyjne.",
-                "correct": false
-            }
-        ]
-    }
+    "question": "Czym charakteryzuje się styl negocjacji kompromis?",
+    "answers": [
+      {
+        "text": "Zaspokojeniem tylko własnych potrzeb.",
+        "correct": false
+      },
+      {
+        "text": "Każda ze stron osiąga pewne korzyści, ale również ponosi straty.",
+        "correct": true
+      },
+      {
+        "text": "Dominacją jednej strony nad drugą.",
+        "correct": false
+      },
+      {
+        "text": "Unikaniem jakichkolwiek działań.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jakie są główne rodzaje zmian organizacyjnych?",
+    "answers": [
+      {
+        "text": "Dobrowolne, wymuszone, adaptacyjne, innowacyjne.",
+        "correct": true
+      },
+      {
+        "text": "Strukturalne, technologiczne, personalne, proceduralne.",
+        "correct": false
+      },
+      {
+        "text": "Operacyjne, taktyczne, strategiczne, finansowe.",
+        "correct": false
+      },
+      {
+        "text": "Programowe, nieprogramowe, planowane, nieplanowane.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Który rodzaj kontroli jest dokonywany po realizacji procesu produkcji?",
+    "answers": [
+      {
+        "text": "Prospektywna.",
+        "correct": false
+      },
+      {
+        "text": "Bieżąca.",
+        "correct": false
+      },
+      {
+        "text": "Retrospektywna.",
+        "correct": true
+      },
+      {
+        "text": "Prewencyjna.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Kto jest przedstawicielem szkoły ewolucyjnej zarządzania strategicznego?",
+    "answers": [
+      {
+        "text": "Michael Porter.",
+        "correct": false
+      },
+      {
+        "text": "Henry Mintzberg.",
+        "correct": true
+      },
+      {
+        "text": "Peter Drucker.",
+        "correct": false
+      },
+      {
+        "text": "Kenneth Andrews.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Która cecha NIE jest wymagana dla skutecznego systemu kontroli?",
+    "answers": [
+      {
+        "text": "Ścisłość informacji.",
+        "correct": false
+      },
+      {
+        "text": "Obiektywizm.",
+        "correct": false
+      },
+      {
+        "text": "Realizm organizacyjny.",
+        "correct": false
+      },
+      {
+        "text": "Skupienie na minimalnych wynikach.",
+        "correct": true
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jakie są źródła oporu wobec zmian wynikające z osobowości człowieka?",
+    "answers": [
+      {
+        "text": "Lęk przed nowym, brak wiary w swoje możliwości, negatywne doświadczenia.",
+        "correct": true
+      },
+      {
+        "text": "Nacisk grupy, sprzeczność z wartościami kulturowymi, brak zaufania.",
+        "correct": false
+      },
+      {
+        "text": "Obawy przed utratą pracy, negatywna ocena zmiany, błędy w projekcie.",
+        "correct": false
+      },
+      {
+        "text": "Negatywna ocena procesu, brak uczestnictwa, błędy w informowaniu.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Która zasada NIE dotyczy technik posługiwania się modyfikacją zachowań?",
+    "answers": [
+      {
+        "text": "Nagradzać wszystkich jednakowo.",
+        "correct": true
+      },
+      {
+        "text": "Mówić podwładnym, co robią źle.",
+        "correct": false
+      },
+      {
+        "text": "Nie karać w obecności innych.",
+        "correct": false
+      },
+      {
+        "text": "Pamiętać, że brak reakcji może również modyfikować zachowania.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Która forma kontroli skupia się na zasobach ludzkich?",
+    "answers": [
+      {
+        "text": "Kontrola finansowa.",
+        "correct": false
+      },
+      {
+        "text": "Kontrola operacyjna.",
+        "correct": false
+      },
+      {
+        "text": "Kontrola zasobów ludzkich.",
+        "correct": true
+      },
+      {
+        "text": "Kontrola strategiczna.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jaka jest główna różnica między zarządzaniem strategicznym a operacyjnym?",
+    "answers": [
+      {
+        "text": "Zarządzanie operacyjne skupia się na długoterminowych celach.",
+        "correct": false
+      },
+      {
+        "text": "Zarządzanie strategiczne dotyczy codziennych działań firmy.",
+        "correct": false
+      },
+      {
+        "text": "Zarządzanie operacyjne dotyczy realizacji produktów i usług na co dzień.",
+        "correct": true
+      },
+      {
+        "text": "Zarządzanie strategiczne obejmuje operacyjne decyzje.",
+        "correct": false
+      }
+    ],
+    "important": false
+  },
+  {
+    "question": "Jaki jest cel kontroli strategicznej?",
+    "answers": [
+      {
+        "text": "Ocena bieżących działań operacyjnych.",
+        "correct": false
+      },
+      {
+        "text": "Zapewnienie skutecznego dostosowania organizacji do otoczenia i realizacji celów strategicznych.",
+        "correct": true
+      },
+      {
+        "text": "Monitorowanie wydajności pracowników.",
+        "correct": false
+      },
+      {
+        "text": "Kontrola finansów firmy.",
+        "correct": false
+      }
+    ],
+    "important": false
+  }
 ];
 
 document.getElementById('start-btn').addEventListener('click', startQuiz);
